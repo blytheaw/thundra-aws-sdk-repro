@@ -1,0 +1,14 @@
+{
+  "name": "@o11y-testing/api",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.224.0",
+    "@serverless-stack/node": "^1.18.4"
+  },
+  "devDependencies": {
+    "@thundra/core": "^2.13.53",
+    "@types/aws-lambda": "^8.10.109"
+  }
+}
