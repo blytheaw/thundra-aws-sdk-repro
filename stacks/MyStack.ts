@@ -4,7 +4,7 @@ import { LayerVersion } from "aws-cdk-lib/aws-lambda";
 export function MyStack({ app, stack }: StackContext) {
   if (!app.local) {
     const thundraAWSAccountNo = 269863060030;
-    const thundraNodeLayerVersion = 131;
+    const thundraNodeLayerVersion = 132;
     const thundraLayer = LayerVersion.fromLayerVersionArn(
       stack,
       "ThundraLayer",
